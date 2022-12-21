@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj": {}
+    "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\dotnet-guide\\dotnet-guide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj": {
+    "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\dotnet-guide\\dotnet-guide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj",
-        "projectName": "OData.Basic",
-        "projectPath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj",
+        "projectUniqueName": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\dotnet-guide\\dotnet-guide.csproj",
+        "projectName": "dotnet-guide",
+        "projectPath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\dotnet-guide\\dotnet-guide.csproj",
         "packagesPath": "C:\\Users\\Philip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\obj\\",
+        "outputPath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\dotnet-guide\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,19 +40,19 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OData": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[8.0.12, )"
+              "version": "[7.0.1, )"
             },
-            "Swashbuckle.AspNetCore.Swagger": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.0.1, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
+            "OData.Swagger": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[1.0.0, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
             }

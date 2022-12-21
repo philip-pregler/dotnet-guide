@@ -37,7 +37,3 @@ C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.OData.Edm.dll
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.OData.ModelBuilder.dll
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.Spatial.dll
-C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\OData.Swagger.dll
