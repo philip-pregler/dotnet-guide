@@ -5,7 +5,6 @@ C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\OData.Bas
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\OData.Basic.runtimeconfig.json
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\OData.Basic.dll
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\OData.Basic.pdb
-C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Philip\source\repos\dotnet-guide\OData.Basic\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll

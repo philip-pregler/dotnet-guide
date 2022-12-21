@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "StkZTS+uW1kytVSJYljte5NR4tykOhc9cSlw7rL6RXGGjsD2z8+H13lVv4/0vWANqLaZrjHaNxo3NKWmbJD0ow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.WithVersions\\OData.WithVersions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.aspnetcore.odata\\8.0.12\\microsoft.aspnetcore.odata.8.0.12.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.odata.core\\7.12.5\\microsoft.odata.core.7.12.5.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.odata.edm\\7.12.5\\microsoft.odata.edm.7.12.5.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.odata.modelbuilder\\1.0.8\\microsoft.odata.modelbuilder.1.0.8.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\microsoft.spatial\\7.12.5\\microsoft.spatial.7.12.5.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Philip\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

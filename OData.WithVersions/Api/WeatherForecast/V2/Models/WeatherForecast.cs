@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 
-namespace OData.Basic.Models
+namespace OData.WithVersions.WeatherForecast.V2.Models
 {
     public class WeatherForecast
     {
@@ -31,13 +31,5 @@ namespace OData.Basic.Models
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
-        public IImmutableList<ODataCity> Cities { get; set; } = ImmutableList<ODataCity>.Empty;
-    }
-
-    public class ODataCity
-    {
-        public int Id { get; set; }
-
-        public string City { get; set; } = string.Empty;
     }
 }

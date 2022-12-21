@@ -3,10 +3,9 @@ using Microsoft.AspNetCore.OData.Formatter;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Results;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
-using OData.Basic.Models;
-using System.Collections.Immutable;
+using OData.WithVersions.WeatherForecast.V1.Models;
 
-namespace OData.Basic.Controllers
+namespace OData.WithVersions.WeatherForecast.V1.Controllers
 {
     [ApiController]
     [Route("odata-weather-forecast")]
@@ -20,7 +19,7 @@ namespace OData.Basic.Controllers
 
         [ApiExplorerSettings(IgnoreApi = true)]
         [EnableQuery]
-        [HttpGet]
+        [HttpGet]   
         public IQueryable<ODataWeatherForecast> GetAsync()
         {
             return Enumerable.Range(1, 5).Select(index => new ODataWeatherForecast
@@ -28,8 +27,7 @@ namespace OData.Basic.Controllers
                 Id = index,
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)],
-                Cities = new List<ODataCity>() { new ODataCity { Id = 1, City = "Mannehim" } }.ToImmutableList()
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             }).AsQueryable();
         }
 

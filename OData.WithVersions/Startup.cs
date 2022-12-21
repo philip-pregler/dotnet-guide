@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.OData;
+using Microsoft.AspNetCore.OData.Formatter;
+using Microsoft.Net.Http.Headers;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
-using OData.Basic.Models;
+using OData.WithVersions.Models;
 
-namespace OData.Basic
+namespace OData.WithVersions
 {
     public class Startup
     {
