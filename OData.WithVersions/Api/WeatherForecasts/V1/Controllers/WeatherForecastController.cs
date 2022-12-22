@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using OData.WithVersions.WeatherForecast.V2.Models;
+using OData.WithVersions.WeatherForecasts.V1.Models;
 using System.Collections.Immutable;
 
-namespace OData.WithVersions.WeatherForecast.V2.Controllers
+namespace OData.WithVersions.WeatherForecasts.V1.Controllers
 {
     [ApiController]
     [Route("weather-forecast")]

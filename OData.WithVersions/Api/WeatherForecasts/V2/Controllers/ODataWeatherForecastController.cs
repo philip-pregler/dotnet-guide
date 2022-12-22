@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.OData.Formatter;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Results;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
-using OData.WithVersions.WeatherForecast.V1.Models;
+using OData.WithVersions.WeatherForecasts.V2.Models;
 
-namespace OData.WithVersions.WeatherForecast.V1.Controllers
+namespace OData.WithVersions.WeatherForecasts.V2.Controllers
 {
     [ApiController]
     [Route("odata-weather-forecast")]

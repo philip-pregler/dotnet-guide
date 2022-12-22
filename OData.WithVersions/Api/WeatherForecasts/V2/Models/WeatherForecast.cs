@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 
-namespace OData.WithVersions.WeatherForecast.V1.Models
+namespace OData.WithVersions.WeatherForecasts.V2.Models
 {
     public class WeatherForecast
     {

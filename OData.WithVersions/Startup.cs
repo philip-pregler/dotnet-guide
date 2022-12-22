@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.OData;
-using Microsoft.AspNetCore.OData.Formatter;
-using Microsoft.Net.Http.Headers;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
-using OData.WithVersions.Models;
 
 namespace OData.WithVersions
 {
@@ -51,7 +48,7 @@ namespace OData.WithVersions
         static IEdmModel GetEdmModel()
         {
             var builder = new ODataConventionModelBuilder();
-            var oDataWeatherForecast = builder.EntitySet<ODataWeatherForecast>("ODataWeatherForecast");
+            var oDataWeatherForecast = builder.EntitySet<OData.WithVersions.WeatherForecasts.V1.Models.ODataWeatherForecast>("ODataWeatherForecast");
             return builder.GetEdmModel();
         }
     }
