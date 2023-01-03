@@ -16,21 +16,27 @@ namespace OData.Basic
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers().AddOData(options => {
-                options
-                .AddRouteComponents("odata", GetEdmModel())  // this is important for odata-weather-forecast(1)
-                       .Select()
-                       .Filter()
-                       .OrderBy()
-                       .SetMaxTop(null)
-                       .Count()
-                       .Expand();
-                options.EnableQueryFeatures();
-                options.EnableAttributeRouting = true;
-    });
+            services
+                .AddControllers()
+                .AddOData(options =>
+                {
+                    options
+                        .AddRouteComponents("odata", GetEdmModel()) // this is important for odata-weather-forecast(1)
+                        .Select()
+                        .Filter()
+                        .OrderBy()
+                        .SetMaxTop(null)
+                        .Count()
+                        .Expand();
+                    options.EnableQueryFeatures();
+                    options.EnableAttributeRouting = true;
+                });
             services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen();
-            services.AddODataQueryFilter();
+            services.AddSwaggerGen(c =>
+            {
+                c.OperationFilter<ODataQueryOptionOperationFilter>();
+                // c.ResolveConflictingActions (apiDescriptions => apiDescriptions.First ());
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -42,14 +48,14 @@ namespace OData.Basic
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapSwagger();
+                endpoints.MapSwagger("/swagger/{documentName}/swagger.json");
             });
 
         }
         static IEdmModel GetEdmModel()
         {
             var builder = new ODataConventionModelBuilder();
-            var oDataWeatherForecast = builder.EntitySet<ODataWeatherForecast>("ODataWeatherForecast");
+            builder.EntitySet<ODataWeatherForecast>("ODataWeatherForecast");
             return builder.GetEdmModel();
         }
     }
