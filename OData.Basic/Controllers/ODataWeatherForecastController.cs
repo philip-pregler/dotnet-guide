@@ -18,7 +18,6 @@ namespace OData.Basic.Controllers
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        [ApiExplorerSettings(IgnoreApi = true)]
         [EnableQuery]
         [HttpGet]
         public IQueryable<ODataWeatherForecast> GetAsync()
@@ -33,7 +32,6 @@ namespace OData.Basic.Controllers
             }).AsQueryable();
         }
 
-        [ApiExplorerSettings(IgnoreApi = true)]
         [EnableQuery]
         [HttpGet("{key}")]
         public SingleResult<ODataWeatherForecast> GetAsync([FromODataUri] int key)
