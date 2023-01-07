@@ -14,7 +14,8 @@ namespace OData.Basic
             ["$top"] = ("An OData $top expression to limit the number of tasks returned in the response. The expression must be a valid OData expression specifying the maximum number of tasks to return.", "integer"),
             ["$skip"] = ("An OData $skip expression to specify the number of tasks to skip in the response. The expression must be a valid OData expression specifying the number of tasks to skip.", "integer"),
             ["$search"] = ("An OData $search expression to filter the list of tasks based on search terms. The expression must be a valid OData expression using the search operator and can include logical and/or operators and nested expressions.", "string"),
-            ["$compute"] = ("An OData $compute expression to include additional computed fields in the response. The expression must be a valid OData expression specifying the computed fields to include in the response.", "string")
+            ["$compute"] = ("An OData $compute expression to include additional computed fields in the response. The expression must be a valid OData expression specifying the computed fields to include in the response.", "string"),
+            ["$count"] = ("An OData $count expression to include the number of tasks in the response. The expression must be a valid OData expression specifying that the count should be included in the response.", "boolean")
         };
         
         public void Apply(OpenApiOperation operation, OperationFilterContext context)

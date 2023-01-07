@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.OData;
+using Microsoft.AspNetCore.OData.Routing.Conventions;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
 using OData.Basic.Models;
@@ -20,6 +21,11 @@ namespace OData.Basic
                 .AddControllers()
                 .AddOData(options =>
                 {
+                    // delete unnecessary conventions
+                    options.Conventions.Clear();
+                    options.Conventions.Add(new MetadataRoutingConvention());
+                    options.Conventions.Add(new EntitySetRoutingConvention());
+                    options.Conventions.Add(new ActionRoutingConvention());
                     options
                         .AddRouteComponents("odata", GetEdmModel()) // this is important for odata-weather-forecast(1)
                         .Select()
