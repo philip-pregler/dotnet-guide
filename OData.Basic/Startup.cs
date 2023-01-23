@@ -17,6 +17,7 @@ namespace OData.Basic
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRouting(options => options.LowercaseUrls = true);
             services
                 .AddControllers()
                 .AddOData(options =>

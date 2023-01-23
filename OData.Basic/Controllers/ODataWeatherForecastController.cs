@@ -9,9 +9,8 @@ using System.Collections.Immutable;
 namespace OData.Basic.Controllers
 {
     [ApiController]
-    [Route("odata-weather-forecast")]
+    [Route("weather-forecast")]
     public class ODataWeatherForecastController : ODataController
-
     {
         private static readonly string[] Summaries = new[]
         {
@@ -41,7 +40,8 @@ namespace OData.Basic.Controllers
                 Id = index,
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)],
+                Cities = new List<ODataCity>() { new ODataCity { Id = 1, City = "Mannehim" } }.ToImmutableList()
             }).Where(x => x.Id == key).AsQueryable());
         }
     }

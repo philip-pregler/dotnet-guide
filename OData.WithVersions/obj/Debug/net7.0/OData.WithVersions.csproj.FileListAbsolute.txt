@@ -1,7 +1,7 @@
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.csproj.AssemblyReference.cache
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.AssemblyInfoInputs.cache
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.AssemblyInfo.cs
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.csproj.CoreCompileInputs.cache
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Philip\source\repos\dotnet-guide\OData.WithVersions\obj\Debug\net7.0\OData.WithVersions.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.csproj.AssemblyReference.cache
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.AssemblyInfoInputs.cache
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.AssemblyInfo.cs
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.csproj.CoreCompileInputs.cache
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Philip/source/repos/dotnet-guide/OData.WithVersions/obj/Debug/net7.0/OData.WithVersions.MvcApplicationPartsAssemblyInfo.cache

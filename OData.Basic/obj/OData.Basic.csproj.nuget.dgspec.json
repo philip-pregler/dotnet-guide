@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj": {}
+    "/Users/z003m9sc/RiderProjects/dotnet-guide/OData.Basic/OData.Basic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj": {
+    "/Users/z003m9sc/RiderProjects/dotnet-guide/OData.Basic/OData.Basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj",
+        "projectUniqueName": "/Users/z003m9sc/RiderProjects/dotnet-guide/OData.Basic/OData.Basic.csproj",
         "projectName": "OData.Basic",
-        "projectPath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\OData.Basic.csproj",
-        "packagesPath": "C:\\Users\\Philip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Philip\\source\\repos\\dotnet-guide\\OData.Basic\\obj\\",
+        "projectPath": "/Users/z003m9sc/RiderProjects/dotnet-guide/OData.Basic/OData.Basic.csproj",
+        "packagesPath": "/Users/z003m9sc/.nuget/packages/",
+        "outputPath": "/Users/z003m9sc/RiderProjects/dotnet-guide/OData.Basic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/z003m9sc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pulse-917113436149.d.codeartifact.eu-central-1.amazonaws.com/nuget/pulse-common-staging/v3/index.json": {},
+          "https://pulse-917113436149.d.codeartifact.eu-central-1.amazonaws.com/nuget/pulse-common/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
